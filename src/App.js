@@ -1,9 +1,17 @@
+/*
+ * @Author: za-sunxiaoju
+ * @Date: 2020-02-28 18:29:12
+ * @LastEditors: za-sunxiaoju
+ * @LastEditTime: 2020-02-29 14:33:46
+ * @Description: file content
+ */
 import React from 'react';
 import Header from './components/Header';
 import Banner from './comtainer/Banner';
 import List from './components/List';
 import Footer from './components/Footer';
 import './App.css';
+import './Rufina-Bold.ttf';
 
 const listData = [
   {name: '阿里集团高级测试工程师-杭州', address: '杭州', time: '三分钟前', id: '1'},
@@ -26,8 +34,8 @@ function App() {
           <List listData={listData} />
         </div>
         <div style={{width:'310px', float :'right'}}>
-          <a class="show-pic" href="https://www.aliyun.com/careers" style={{textAlign: 'center', lineHeight:'140px', margin: '20px 0 20px 20px'}}><img style={{width: '179px', verticalAlign: 'middle'}} src="https://img.alicdn.com/tfs/TB1SbxarYj1gK0jSZFOXXc7GpXa-2546-848.png"/></a>
-          <a class="show-pic" href="https://job.alibaba.com/zhaopin/informationPlatformBu.htm?" style={{textAlign: 'center', lineHeight: '140px', margin: '20px 0 20px 20px'}}><img style={{width:'260px', verticalAlign: 'middle'}} src="https://img.alicdn.com/tfs/TB18tFCCH2pK1RjSZFsXXaNlXXa-240-34.svg"/></a>
+          <a className="show-pic" href="https://www.aliyun.com/careers" style={{textAlign: 'center', lineHeight:'140px', margin: '20px 0 20px 20px'}}><img style={{width: '179px', verticalAlign: 'middle'}} alt='' src="https://img.alicdn.com/tfs/TB1SbxarYj1gK0jSZFOXXc7GpXa-2546-848.png"/></a>
+          <a className="show-pic" href="https://job.alibaba.com/zhaopin/informationPlatformBu.htm?" style={{textAlign: 'center', lineHeight: '140px', margin: '20px 0 20px 20px'}}><img style={{width:'260px', verticalAlign: 'middle'}} alt='' src="https://img.alicdn.com/tfs/TB18tFCCH2pK1RjSZFsXXaNlXXa-240-34.svg"/></a>
         </div>
       </div>
       <Footer />

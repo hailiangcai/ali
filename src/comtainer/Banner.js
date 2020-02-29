@@ -30,10 +30,10 @@ class Banner extends PureComponent {
                             <p style={{fontSize: '34px', color: '#fff', marginBottom:'38px', lineHeight: '48px'}}>此时此刻，非我莫属！</p>
                             <div className="search-box" style={{width:'490px', height:'60px', position: 'relative', border:'0px', background:'none', margin:'0 auto'}}>
                                 <div style={{width:'100%', height:'100%', background:'#fff', position:'absolute',opacity: '0.1', filter:'alpha(opacity=10)', zIndex: '-1'}}></div>
-                                <input type="text" maxlength="30" placeholder="请输入职位关键词" className="search-text" />
-                                <input class="search-btn" data-spm-click="gostr=/hr;locaid=searchPosition" type="submit" style={{border: '0', cursor: 'pointer', color:'#fff', background:'#F37327', fontSize:'14px', fontFamily:'PingFangSC-Regular',width: '92px', height: '40px', borderRadius:'3px', marginTop:'10px', marginLeft:'10px', position: 'relative', zIndex:'2',}} value="搜索"/>
+                                <input type="text" maxLength={30} placeholder="请输入职位关键词" className="search-text" />
+                                <input className="search-btn" data-spm-click="gostr=/hr;locaid=searchPosition" type="submit" style={{border: '0', cursor: 'pointer', color:'#fff', background:'#F37327', fontSize:'14px', fontFamily:'PingFangSC-Regular',width: '92px', height: '40px', borderRadius:'3px', marginTop:'10px', marginLeft:'10px', position: 'relative', zIndex:'2',}} value="搜索"/>
                             </div>
-                            <div class="hot-text" style={{textAlign:'center'}}>
+                            <div className="hot-text" style={{textAlign:'center'}}>
                                 <span>热门搜索：</span>
                                 {
                                     this.hotText.map((item, index) => {

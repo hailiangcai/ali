@@ -54,3 +54,6 @@
     text-decoration: none;
     padding-right: 10px;
 }
+.search-key:hover {
+    color: #F37327;
+}

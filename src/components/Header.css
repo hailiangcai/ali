@@ -53,3 +53,10 @@
     color: #fff;
     text-decoration: none;
 }
+.header-menu li a:hover {
+    color: #F37327;
+}
+
+.header-menu li a.font-color {
+    color: #F37327;
+}

@@ -53,7 +53,7 @@ class List extends PureComponent {
                 <div className='top'>
                     <div style={{float: 'left'}}>最新职位</div>
                     <div className='pos-more'>
-                        <a href='#'>更多</a>
+                        <a href='##'>更多</a>
                     </div>
                 </div>
                 <ul className='positoon-list' style={{top: top}} onMouseOver = {this.handleMouseUp} onMouseOut = {this.handleMouseOut}>
@@ -61,7 +61,7 @@ class List extends PureComponent {
                         listData.map((item, index) => {
                             return (
                                 <li key={item.id}>
-                                    <a href='#' className= 'position-list-name' >{item.name}</a>
+                                    <a href='##' className= 'position-list-name' >{item.name}</a>
                                     <div style={{display: 'inline', fontSize: '14px', color: '#999  '}}>{item.address}</div>
                                     <span style={{float: 'right'}}>{item.time}</span>
                                 </li>
