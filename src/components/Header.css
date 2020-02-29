@@ -39,6 +39,7 @@
     line-height: 52px;
     padding: 10px 15px;
     margin-left: 4px;
+    text-decoration: none;
 }
 .login {
     width: 340px;
